@@ -1,0 +1,40 @@
+*{margin:0;padding:0}
+body{font-size:14px;font-family:microsoft yahei;}
+ul,li{list-style:none;}
+.clear{clear:both;}
+img{boredr:none}
+.bloack{display:block}
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:underline;color:blue}
+
+
+
+body{
+overflow:hidden;   
+   }
+.header{
+border:1px red solid;
+width:1000px;height:90px;
+margin:0 auto;
+}
+.logo{
+float:left;
+margin-left:18%;
+width:30%;
+height:85px;
+background:url(../images/logo.jpg) no-repeat center ;
+}
+ul{border:1px red solid; width:35%;float:right;line-height:50px;margin-top:15px;margin-left:50px;}
+li{float:left;margin-left:8px;}
+.step{
+border:1px blue solid;margin:0 auto;width:100%;}
+.steps {float:left;width:100%;margin-left:20%;}
+.steps  li{float:left;}
+.steps li{float:left;}
+.step1,.step2,.step3,.step4{ background:url(../images/step.png) no-repeat; width:269px;height:50px; display:inline-block; font-size:16px; text-align:center; line-height:50px; font-weight:bold;}
+.step1{ background-position:left top;color:black;position:relative; z-index:10000;}
+.step2{ background-position:left -50px; color:black; margin-left:-40px;position:relative; z-index:9999;}
+.step3{background-position:left -50px; color:black; margin-left:-40px;position:relative; z-index:999;}
+.step4{background-position:left -50px; color:black;margin-left:-40px;}
+.num1{font-size:20px;font-weight:bold;color:black;width:40px;display:inline-block;}
+.num2{font-size:20px;font-weight:bold;color:black;width:40px;display:inline-block;}
